@@ -12,20 +12,189 @@
     <title>Frontend exercise - Home</title>
   </head>
   <body>
-    <h1>Croissant</h1>
-    <p>
-      A croissant is a buttery, flaky, French viennoiserie pastry inspired by
-      the shape of the Austrian kipferl but using the French yeast-leavened
-      laminated dough. Croissants are named for their historical crescent shape,
-      the dough is layered with butter, rolled and folded several times in
-      succession, then rolled into a thin sheet, in a technique called
-      laminating. The process results in a layered, flaky texture, similar to a
-      puff pastry.
-    </p>
-    <div class="navbar">
-      <a href="index.html" title="back to homapage">Home</a>
-      <a href="about.html" title="read more about croissants">About</a>
-      <a href="photo.html" title="see a croissant photo">Photo</a>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>☘Gaeilge Final Project</title>
+    <style>
+      body {
+        background: rgb(238, 229, 174);
+        background: radial-gradient(
+          circle,
+          rgba(238, 229, 174, 1) 0%,
+          rgba(131, 205, 135, 1) 100%
+        );
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: #3d2b1f;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      img {
+        display: block;
+        margin: 25px auto;
+        max-width: 100%;
+      }
+      div.container {
+        text-align: center;
+        max-width: 670px;
+        margin: 0 auto;
+      }
+      div.main {
+        line-height: 1.5;
+        border: 1px solid #1f4711;
+        border-radius: 30px;
+        padding: 0px 20px;
+        text-align: left;
+        margin-bottom: 25px;
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+      .learnMore {
+        color: darkgreen;
+        text-decoration: underline;
+      }
+      .learnMore:hover {
+        font-size: larger;
+        text-decoration: underline;
+      }
+      ul {
+        line-height: 0.6;
+        display: inline-block;
+        text-align: left;
+        margin: 0;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        background: rgb(0, 128, 0);
+        background: linear-gradient(
+          90deg,
+          rgba(0, 128, 0, 1) 0%,
+          rgba(255, 255, 255, 0.3452731434370623) 40%,
+          rgba(255, 255, 255, 0.3452731434370623) 60%,
+          rgba(255, 165, 0, 1) 100%
+        );
+        font-weight: bolder;
+        padding: 5px 20px;
+        border-color: #1f4711;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px 0px rgba(0, 128, 0, 0.3);
+        transition: all 200ms ease;
+      }
+      button:hover {
+        font-size: larger;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      button:active {
+        transform: scale(0.98);
+        border: none;
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+      }
+      footer {
+        text-align: center;
+        font-size: smaller;
+        margin-top: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flag">
+      <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/036/749/original/facts-about-the-irish-flag.jpg?1654806955"
+      alt="Irish flag" width="150"
+    </div>
+    <h1>🍀Let's Learn Gaeilge🍀</h1>
+    <h2>170,000 speakers use Irish as a first language!</h2>
+    <div class="container">
+      <div class="main">
+        <p>
+          <em><strong>Gaeilge</strong></em> or “Irish Gaelic” is the national
+          and official language of Ireland. Although everyone in Ireland speaks
+          English, there are regions known as the <em>Gaeltacht</em> that use
+          Irish as the main language. It belongs to Goidelic group of Celtic
+          languages. Gaeilge sounds really beautiful and is gramatically
+          different from English, French or other European languages.
+          <em
+            ><a
+              href="https://en.wikipedia.org/wiki/Ogham"
+              target="_blank"
+              class="learnMore"
+              >Ogham</a
+            ></em
+          >
+          was the writing system used to write Old Irish until Latin script was
+          introduced in the 8th century CE. The traditional Irish alphabet
+          (<em>áibítir</em>) consists of 18 letters: ⟨a, b, c, d, e, f, g, h, i,
+          l, m, n, o, p, r, s, t, u⟩. Vowels may be accented with an acute
+          accent named
+          <em>fada</em>: á, é, í, ó, ú. Irish pronunciation is consistent. This
+          means that you can read any given text aloud pretty well after a small
+          amount of study. Learning it is very interesting and a good workout
+          for your brain!
+          <br />
+          <span
+            ><a
+              href="https://www.fluentin3months.com/irish-language/"
+              target="_blank"
+              class="learnMore"
+              >Would you like to know more about learning Irish?</a
+            ></span
+          >
+        </p>
+      </div>
+      <hr />
+      <ul>
+        <h3>Useful phrases in Irish:</h3>
+        <li>
+          <p>Hello - Dia duit. (literally "may God be with you")</p>
+        </li>
+        <li>
+          <p>How are you? - Conas atá tú?</p>
+        </li>
+        <li>
+          <p>What's your name? - Cad es ainm duit?</p>
+        </li>
+        <li>
+          <p>Please - Le do thoil.</p>
+        </li>
+        <li><p>Thank you - Go raibh maith agat</p></li>
+        <li><p>I am sorry - Tá brón orm</p></li>
+      </ul>
+      <hr />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/036/750/original/ireland-country-dunluce-castle-sunrise.jpg?1654806998"
+      />
+      <button><p id="clicker">👉Welcome!</p></button>
+      <footer>This page was built by Yuliya K.</footer>
+    </div>
+    <script>
+      function welcome() {
+        let name = prompt("What is your name?");
+        let gaeilge = prompt("Do you speak Irish?");
+        let clicker = document.getElementById("clicker");
+        if (gaeilge === "Yes" || gaeilge === "yes") {
+          clicker.innerHTML = "Fáilte, " + name + "!";
+          alert("Céad Mile Fáilte, " + name + "!");
+        } else {
+          clicker.innerHTML = "Welcome on board, " + name + "!";
+          alert("Let's learn Irish together, " + name + "!");
+        }
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", welcome);
+    </script>
+  </body>
+</html>
+
     </div>
   </body>
 </html>
